@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapp-mergeDebugResources-43:/values-hu/values-hu.xml",
+            "outputFile": "com.example.myapp-mergeDebugResources-44:/values-hu/values-hu.xml",
             "map": [
                 {
                     "source": "/data/data/com.termux/files/home/.gradle/caches/transforms-3/e20c1e748e27cb24706a60fab3ed0416/transformed/material3-1.1.2/res/values-hu/values-hu.xml",

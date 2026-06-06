@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapp-mergeDebugResources-43:/values-or/values-or.xml",
+            "outputFile": "com.example.myapp-mergeDebugResources-44:/values-or/values-or.xml",
             "map": [
                 {
                     "source": "/data/data/com.termux/files/home/.gradle/caches/transforms-3/09fe829239a0344c4615d2225f140549/transformed/ui-release/res/values-or/values-or.xml",

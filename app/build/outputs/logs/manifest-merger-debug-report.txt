@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.compose.material3:material3:1.1.2] /data/data/com.termux/files/home/.gradle/caches/transforms-3/e20c1e748e27cb24706a60fab3ed0416/transformed/material3-1.1.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /data/data/com.termux/files/home/.gradle/caches/transforms-3/03ebe1dab63ae70cbc82de088d9f6aec/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /data/data/com.termux/files/home/.gradle/caches/transforms-3/fcd202d2e48b5bfa6c9e0edbb28656e3/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
@@ -43,8 +43,9 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /data/data/co
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /data/data/com.termux/files/home/.gradle/caches/transforms-3/7678ca9e1d85c50aacf71e4ce815321e/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /data/data/com.termux/files/home/.gradle/caches/transforms-3/713fe3a7caebeb7531afc15290539aa7/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/f8f571bcc53804d47063e31e1c2b507f/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/9c3c5103c05a0f062c4aa72715398688/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /data/data/com.termux/files/home/.gradle/caches/transforms-3/e783a56e2120506ed8c64183ea8dad16/transformed/security-crypto-1.1.0-alpha06/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/a80f11189515b49da8eeba05c8021fb4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/9c3c5103c05a0f062c4aa72715398688/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/c420bb1138b5734b642235e867f979eb/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/6ff610d5b5eece47f38e51599785a189/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
@@ -62,8 +63,8 @@ ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidMa
 	android:name
 		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:6:5-22:19
-INJECTED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:6:5-22:19
+ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:6:5-23:19
+INJECTED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:6:5-23:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /data/data/com.termux/files/home/.gradle/caches/transforms-3/824362f5cf10f6fde18fc3c20e1fd88a/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /data/data/com.termux/files/home/.gradle/caches/transforms-3/824362f5cf10f6fde18fc3c20e1fd88a/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/b81245873b804b99f9c47ec2fe8ac5cd/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
@@ -83,33 +84,35 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /data/data/com.termux/files
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/440a64c1659b3784956be1ef27019da1/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:8:9-42
 	android:icon
-		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:7:9-36
 	android:theme
-		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:11:9-66
+		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:12:9-66
 activity#com.example.myapp.MainActivity
-ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:13:9-21:20
+ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:14:9-22:20
 	android:exported
-		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:15:13-36
+		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:16:13-36
 	android:theme
-		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:16:13-70
+		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:17:13-70
 	android:name
-		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:14:13-41
+		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:15:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:17:13-20:29
+ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /data/data/com.termux/files/home/NvidiaProject/app/src/main/AndroidManifest.xml
@@ -192,10 +195,12 @@ MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /data/data/com.term
 MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /data/data/com.termux/files/home/.gradle/caches/transforms-3/713fe3a7caebeb7531afc15290539aa7/transformed/runtime-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/f8f571bcc53804d47063e31e1c2b507f/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/f8f571bcc53804d47063e31e1c2b507f/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/9c3c5103c05a0f062c4aa72715398688/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/9c3c5103c05a0f062c4aa72715398688/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /data/data/com.termux/files/home/.gradle/caches/transforms-3/e783a56e2120506ed8c64183ea8dad16/transformed/security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /data/data/com.termux/files/home/.gradle/caches/transforms-3/e783a56e2120506ed8c64183ea8dad16/transformed/security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/a80f11189515b49da8eeba05c8021fb4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/a80f11189515b49da8eeba05c8021fb4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/9c3c5103c05a0f062c4aa72715398688/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/9c3c5103c05a0f062c4aa72715398688/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/c420bb1138b5734b642235e867f979eb/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/c420bb1138b5734b642235e867f979eb/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/4dbbd11a74d28bd64c37893cccf57482/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44

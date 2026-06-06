@@ -1,8 +1,11 @@
 package com.example.myapp
 
+import android.app.Application
 import androidx.compose.runtime.*
-import androidx.lifecycle.ViewModel
+import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import androidx.security.crypto.EncryptedSharedPreferences
+import androidx.security.crypto.MasterKey
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.catch
@@ -16,8 +19,20 @@ data class ChatMessage(
     val timestamp: Long = System.currentTimeMillis()
 )
 
-class NvidiaViewModel : ViewModel() {
+class NvidiaViewModel(application: Application) : AndroidViewModel(application) {
     private val apiClient = NvidiaApiClient()
+
+    private val masterKey = MasterKey.Builder(application)
+        .setKeyScheme(MasterKey.KeyScheme.AES256_GCM)
+        .build()
+
+    private val securePreferences = EncryptedSharedPreferences.create(
+        application,
+        "secret_vanguard_prefs",
+        masterKey,
+        EncryptedSharedPreferences.PrefKeyEncryptionScheme.AES256_SIV,
+        EncryptedSharedPreferences.PrefValueEncryptionScheme.AES256_GCM
+    )
 
     private object ContextRegistry {
         const val UI_DESIGN_SKILL = "Act as an Elite UI/UX Developer. Enforce the strict Vanguard OS design style: premium dark themes (#050505), sharp high-contrast accents (#00F0FF), asymmetrical bento box layouts, deep typography contrasts, and tactical animations using Jetpack Compose Material 3."
@@ -64,10 +79,13 @@ class NvidiaViewModel : ViewModel() {
     val currentTps = mutableStateOf("0.0 tps")
 
     init {
+        // Load stored API key securely on initialization
+        apiKey = getStoredApiKey()
+
         // Initial system message
         messages.add(ChatMessage(content = "VANGUARD OS INITIALIZED. STANDING BY.", isUser = false))
 
-        // Proactive load if key already exists (e.g. from persistent storage in future)
+        // Proactive load if key already exists
         if (apiKey.startsWith("nvapi-") && apiKey.length > 20) {
             loadModels(apiKey)
         }
@@ -94,10 +112,20 @@ class NvidiaViewModel : ViewModel() {
 
     fun updateApiKey(newKey: String) {
         apiKey = newKey
+        saveApiKeySecurely(newKey)
+        
         // Reactive trigger: Fetch models if key looks valid
         if (newKey.startsWith("nvapi-") && newKey.length > 20) {
             loadModels(newKey)
         }
+    }
+
+    private fun saveApiKeySecurely(key: String) {
+        securePreferences.edit().putString("NVIDIA_API_KEY", key).apply()
+    }
+
+    private fun getStoredApiKey(): String {
+        return securePreferences.getString("NVIDIA_API_KEY", "") ?: ""
     }
 
     fun onModelSelected(model: String) {
